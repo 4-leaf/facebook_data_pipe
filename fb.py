@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 from sys import exit
 class FacebookPipe:
-    def __init__(self, page_id, token): #pageid = 228270097
+    def __init__(self, page_id, token):
         self.page_id = page_id
         self.token = token
         self.global_page_ids = []
